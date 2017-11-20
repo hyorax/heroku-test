@@ -15,6 +15,4 @@ io.on('connection', function(socket){
     });
 });
 
-http.listen(process.env.PORT, function(){
-    console.log('4000 portta server ayağa kalkdı');
-});
+http.listen(process.env.PORT);
